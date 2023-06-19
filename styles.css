@@ -1,9 +1,8 @@
-p{
-	font-weight:bold;
-}
-.element{
+div::before{
+	content:'Before Element';
 	color:red;
-	display:inline;
-	font-size: 20px;
-	
+}
+div::after{
+	content:'After Element';
+	color:red;
 }
